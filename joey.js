@@ -5,7 +5,7 @@ var port = process.env.port || 3000;
 
 var app = express();
 var apiai = require('apiai');
-var apiapp = apiai("cf97b8b69ce34ddfa30b0c74437a2b61");
+var apiapp = apiai("8d790fce275345388ea4329d4acc2add");
 
 //Body parser
 app.use(bodyParser.json());
